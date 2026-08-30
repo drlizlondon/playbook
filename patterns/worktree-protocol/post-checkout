@@ -1,0 +1,10 @@
+#!/bin/sh
+# Worktree Protocol companion: auto-claim a checkout's FIRST branch so fresh
+# worktrees work friction-free. An existing claim is never overwritten — later
+# branch switches therefore trip the pre-commit guard until consciously reclaimed.
+claim="$(git rev-parse --absolute-git-dir)/EXPECTED-BRANCH"
+branch=$(git symbolic-ref --quiet --short HEAD)
+if [ -n "$branch" ] && [ ! -f "$claim" ]; then
+  printf '%s\n' "$branch" > "$claim"
+fi
+exit 0

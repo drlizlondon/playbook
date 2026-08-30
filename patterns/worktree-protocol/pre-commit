@@ -1,0 +1,42 @@
+#!/bin/sh
+# Worktree Protocol: multi-session commit guard.
+# Several coding agents (or humans) share this repository. This hook makes
+# two failure modes mechanically impossible:
+#   1. committing directly to main — main advances ONLY by
+#      `git merge --ff-only <task-branch>` run where main is checked out;
+#   2. committing onto a branch you didn't claim — i.e. a concurrent
+#      session switched this checkout's branch under you (this hook exists
+#      because that happened, mid-commit, on a real repo).
+# Rule for every session: work on YOUR OWN branch in YOUR OWN worktree
+#   git worktree add ../<repo>-<task> -b <task-branch>
+# NEVER bypass with --no-verify without the repository owner's explicit say-so.
+
+branch=$(git symbolic-ref --quiet --short HEAD)
+gitdir=$(git rev-parse --absolute-git-dir)
+
+if [ "$branch" = "main" ] || [ "$branch" = "master" ]; then
+  echo "BLOCKED: direct commits to '$branch' are disabled." >&2
+  echo "Work on your own branch in your own worktree:" >&2
+  echo "  git worktree add ../<repo>-<task> -b <task-branch>" >&2
+  echo "Land finished work with: git merge --ff-only <task-branch>" >&2
+  echo "(run in the checkout holding main; an ff-only merge needs no commit and passes this hook)." >&2
+  exit 1
+fi
+
+claim="$gitdir/EXPECTED-BRANCH"
+if [ ! -f "$claim" ]; then
+  echo "BLOCKED: this checkout has no branch claim ($claim missing)." >&2
+  echo "If you own this checkout and '$branch' is YOUR branch, claim it:" >&2
+  echo "  printf '%s\\n' \"$branch\" > \"$claim\"" >&2
+  echo "Otherwise create your own worktree: git worktree add ../<repo>-<task> -b <task-branch>" >&2
+  exit 1
+fi
+
+expected=$(cat "$claim")
+if [ "$branch" != "$expected" ]; then
+  echo "BLOCKED: this checkout is claimed for branch '$expected' but HEAD is '$branch'." >&2
+  echo "A concurrent session most likely switched branches here — do NOT commit." >&2
+  echo "Recover: switch back to '$expected', or take your work to your own worktree." >&2
+  exit 1
+fi
+exit 0
