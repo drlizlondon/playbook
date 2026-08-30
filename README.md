@@ -13,9 +13,18 @@ Everything here is sanitised for public use — free of product, stack, and pers
 | [**Minimal Permissions**](rules/minimal-permission-prompts.md) | The allowlist doctrine: a small set of generalised exact-form patterns pre-approve everything routine, while destructive, outward-facing, and arbitrary-execution actions deliberately keep their prompts. | An audit that found over a thousand sleepily-accumulated one-off grants — including `git push` pre-approved in five repos. Now a curated pattern set and near-zero prompts. |
 | [**Night Shift**](patterns/night-shift.md) | The ritual for unattended overnight agent runs: front-load every approval while you're awake, act-and-record while you sleep, wake to decisions instead of archaeology. | Nights lost to a single 2am clarifying question — and the discovery that the ask/act boundary must be drawn before the operator leaves. |
 
-## Skills
+## Install
 
-Full agent skills — drop a folder into `~/.claude/skills/` (user-level) or `.claude/skills/` (per-project) and Claude Code picks it up; the documents work as prompts for any capable agent.
+Claude Code users can install everything as a plugin, with updates included:
+
+```
+/plugin marketplace add drlizlondon/agent-playbook
+/plugin install agent-playbook@agent-playbook
+```
+
+Or take any piece by hand: copy a skill folder into `~/.claude/skills/` (user-level) or `.claude/skills/` (per-project), and adopt the patterns by following each one's own instructions. The documents work as prompts for any capable agent.
+
+## Skills
 
 | Skill | What it does |
 |---|---|

@@ -1,0 +1,6 @@
+{
+  "name": "agent-playbook",
+  "version": "1.0.0",
+  "description": "Battle-tested patterns and skills for running AI coding agents on real products: parallel-agents discipline, evidence-grounded marketing-angles research, plus the Worktree Protocol, Autonomous Continuation, Minimal Permissions and Night Shift patterns as reference docs.",
+  "author": { "name": "drlizlondon", "url": "https://github.com/drlizlondon" }
+}
