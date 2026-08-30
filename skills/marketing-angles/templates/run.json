@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "runId": "YYYY-MM-DD-short-slug",
+  "brief": {
+    "product": "One line.",
+    "audience": "One segment.",
+    "decision": "What this run should improve.",
+    "assumptions": [
+      "Anything inferred rather than read. Keep these visible."
+    ]
+  },
+  "limitsHonoured": {
+    "venuesReviewed": 0,
+    "communitiesReviewed": 0,
+    "threadsReviewed": 0,
+    "paidFetches": 0,
+    "spend": { "currency": "GBP", "amount": 0 }
+  },
+  "signals": [
+    {
+      "id": "s1",
+      "sourceType": "forum",
+      "platform": "Name of the site or system. Optional.",
+      "community": "Sub-community, queue, segment or section.",
+      "url": "https://example.com/thread/123",
+      "publishedDate": "YYYY-MM-DD",
+      "accessedAt": "YYYY-MM-DD",
+      "evidenceClass": "qualitative-language",
+      "authorRef": "a1",
+      "threadRef": "t1",
+      "paraphrase": "Your own words. Never a verbatim quote, never a username.",
+      "languageNote": "Optional. The phrasing people reach for, paraphrased."
+    }
+  ],
+  "themes": [
+    {
+      "id": "th1",
+      "label": "Short label.",
+      "statement": "The pattern, stated as a sentence about the audience.",
+      "signalIds": ["s1"],
+      "counterSignal": "What contradicts, limits or complicates this. Or 'none found' plus where you looked.",
+      "evidenceStatus": "not_checked",
+      "sampleNote": "Optional. What this sample is and is not representative of."
+    }
+  ],
+  "angles": [
+    {
+      "id": "a1",
+      "angle": "The position, as a sentence. Not a slogan.",
+      "underlyingProblem": "The problem or desire underneath it.",
+      "customerLanguage": "How the audience describes this, paraphrased.",
+      "whyItMayResonate": "The mechanism. Why this lands with this audience now.",
+      "themeIds": ["th1"],
+      "claimType": "language-evidence",
+      "rankingRationale": "Plain language: why this ranks where it does, including what would drop it.",
+      "judgement": {
+        "strategicFit": 0,
+        "differentiation": 0,
+        "testability": 0,
+        "overclaimRisk": 0,
+        "brandRisk": 0
+      },
+      "hooks": [
+        { "text": "Hook one.", "format": "reel-opener", "channel": "Instagram" },
+        { "text": "Hook two.", "format": "headline", "channel": "Landing page" },
+        { "text": "Hook three.", "format": "ad-line", "channel": "Paid social" }
+      ],
+      "suggestedFormats": [
+        "Optional. Formats or channels this angle suits and why."
+      ]
+    }
+  ],
+  "evidenceGaps": [
+    "What we would investigate next to firm this up."
+  ]
+}

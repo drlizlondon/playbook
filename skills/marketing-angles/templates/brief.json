@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "product": "One line: what it is and what it does for whom.",
+  "audience": "Who this run is about. One segment, not 'everyone'.",
+  "decision": "What decision should this research improve? e.g. which three ad angles to test next month.",
+  "context": {
+    "positioning": "How the product is currently positioned, if it is.",
+    "currentMessaging": [
+      "Existing headline, tagline or ad line already in use."
+    ],
+    "differentiators": [
+      "Something true about this product that competitors cannot say."
+    ],
+    "competitors": [
+      "Named alternative, including 'doing nothing' where that is the real one."
+    ],
+    "priorLearnings": [
+      "What has already been tested and what happened."
+    ],
+    "constraints": [
+      "Regulatory, brand, tone or claim constraints that rule messaging in or out."
+    ]
+  },
+  "claimConstraints": [
+    "Claims this product must never make (regulated categories, unproven outcomes, comparative claims)."
+  ],
+  "sources": {
+    "requested": [
+      {
+        "sourceType": "forum",
+        "reference": "r/example or https://example.com/reviews",
+        "why": "Why this source is likely to carry relevant language."
+      }
+    ],
+    "limits": {
+      "_units": "A venue is one site, community or system. A source is one URL within it.",
+      "maxVenues": 6,
+      "maxCommunities": 4,
+      "maxThreads": 20,
+      "preferPublishedWithinDays": 365
+    },
+    "paid": {
+      "allowed": false,
+      "maxSpend": { "currency": "GBP", "amount": 0 },
+      "note": "Free web research needs no approval. Anything with a marginal cost is proposed with an estimate and waits for an explicit yes."
+    }
+  },
+  "createdAt": "YYYY-MM-DD"
+}

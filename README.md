@@ -8,6 +8,7 @@ Drop a skill folder into `~/.claude/skills/` (user-level, all projects) or `.cla
 
 | Skill | What it does |
 |---|---|
+| [`marketing-angles`](skills/marketing-angles/SKILL.md) | Evidence-grounded marketing angles and hooks for any product: researches real customer language, clusters it into themes with counter-signals, and ranks angles by breadth of evidence rather than repetition. Ships a zero-dependency compiler that derives every count, enforces the prevalence rule (forum chatter can never support a "most people" claim), and refuses runs that store identities or verbatim quotes. |
 | [`parallel-agents`](skills/parallel-agents/SKILL.md) | A discipline for running multiple coding agents in parallel on one codebase without collisions or drift: worktree-per-agent isolation, packet discipline (nothing counts as done until proven), one append-only work log as the single source of truth, and a hard done-gate. Includes the sharp edge most setups miss: isolation protects files but not serial shared resources (migration chains, lockfiles, generated artifacts); the gate is what catches those. |
 
 ## Rules

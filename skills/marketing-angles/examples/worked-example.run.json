@@ -1,0 +1,316 @@
+{
+  "schemaVersion": 1,
+  "runId": "2026-08-12-rota-cafes",
+  "_note": "ILLUSTRATIVE EXAMPLE. Every URL points at example.com and every signal is invented to exercise the compiler. Never copy these signals into a real run.",
+  "brief": {
+    "product": "Rota — shift swapping and cover for independent cafés",
+    "audience": "Owner-managers of one-to-three site cafés in the UK, 6–25 staff, currently running rotas in a spreadsheet and a group chat",
+    "decision": "Which three angles to test on paid social and the landing page next month",
+    "assumptions": [
+      "Owner-manager is the buyer as well as the user; no separate HR function at this size",
+      "Staff smartphone use is universal but app installs are resisted"
+    ]
+  },
+  "limitsHonoured": {
+    "venuesReviewed": 6,
+    "communitiesReviewed": 4,
+    "threadsReviewed": 10,
+    "paidFetches": 0,
+    "spend": { "currency": "GBP", "amount": 0 }
+  },
+  "signals": [
+    {
+      "id": "s1",
+      "sourceType": "forum",
+      "platform": "Independent hospitality forum",
+      "community": "cafe-owners",
+      "url": "https://forum.example.com/t/swap-chaos-101",
+      "publishedDate": "2026-06-14",
+      "accessedAt": "2026-08-12",
+      "evidenceClass": "qualitative-language",
+      "authorRef": "a1",
+      "threadRef": "t1",
+      "paraphrase": "Owner describes a single shift swap taking dozens of group-chat messages across an evening, and still ending with two people believing they are off.",
+      "languageNote": "Reaches for message-count exaggeration to describe the effort — the unit of pain is the thread, not the rota."
+    },
+    {
+      "id": "s2",
+      "sourceType": "forum",
+      "platform": "Independent hospitality forum",
+      "community": "cafe-owners",
+      "url": "https://forum.example.com/t/who-agreed-to-what",
+      "publishedDate": "2026-05-02",
+      "accessedAt": "2026-08-12",
+      "evidenceClass": "qualitative-language",
+      "authorRef": "a2",
+      "threadRef": "t2",
+      "paraphrase": "Several replies agree the real problem is not building the rota but keeping track of who agreed to change what after it is published.",
+      "languageNote": "Consistent distinction drawn between making the rota and changing it."
+    },
+    {
+      "id": "s3",
+      "sourceType": "review-site",
+      "platform": "App marketplace",
+      "community": "competitor-reviews",
+      "url": "https://reviews.example.com/rota-tools/1",
+      "publishedDate": "2026-07-01",
+      "accessedAt": "2026-08-12",
+      "evidenceClass": "competitor-positioning",
+      "authorRef": "a3",
+      "threadRef": "t3",
+      "paraphrase": "An incumbent tool markets itself on scheduling and forecasting; multiple reviewers say they only ever use it for swaps and find the rest unused.",
+      "languageNote": "Category is sold on planning; the job people hire it for is changing the plan."
+    },
+    {
+      "id": "s4",
+      "sourceType": "social",
+      "platform": "Owner community group",
+      "community": "hospitality-owners-group",
+      "url": "https://social.example.com/posts/8891",
+      "publishedDate": "2026-07-20",
+      "accessedAt": "2026-08-12",
+      "evidenceClass": "qualitative-language",
+      "authorRef": "a4",
+      "threadRef": "t4",
+      "paraphrase": "Owner posts about spending a day off fielding messages to fill one sick call, and the replies treat this as normal rather than remarkable.",
+      "languageNote": "Framed as an intrusion into rest, not as an operational cost."
+    },
+    {
+      "id": "s5",
+      "sourceType": "support-tickets",
+      "platform": "Our helpdesk",
+      "community": "onboarding-queue",
+      "url": "https://internal.example.com/tickets/4412",
+      "publishedDate": "2026-07-28",
+      "accessedAt": "2026-08-12",
+      "evidenceClass": "internal-data",
+      "authorRef": "a5",
+      "threadRef": "t5",
+      "paraphrase": "Trial accounts most often ask how swaps are approved before they ask anything about building a rota, in roughly two-thirds of onboarding tickets this quarter.",
+      "languageNote": "Same distinction appears unprompted in our own queue."
+    },
+    {
+      "id": "s6",
+      "sourceType": "search-data",
+      "platform": "Keyword export",
+      "community": "uk-search-export",
+      "url": "https://data.example.com/exports/2026-07-uk-rota",
+      "publishedDate": "2026-07-31",
+      "accessedAt": "2026-08-12",
+      "evidenceClass": "quantitative-demand",
+      "threadRef": "t6",
+      "paraphrase": "UK monthly search volume for shift-swap and cover phrasings is roughly four times that of rota-building phrasings, and has grown across the last three quarters."
+    },
+    {
+      "id": "s7",
+      "sourceType": "interview",
+      "platform": "Customer interviews",
+      "community": "customer-interviews",
+      "url": "https://internal.example.com/interviews/07",
+      "publishedDate": "2026-06-25",
+      "accessedAt": "2026-08-12",
+      "evidenceClass": "internal-data",
+      "authorRef": "a7",
+      "threadRef": "t7",
+      "paraphrase": "Interviewee estimates paying for unnecessary cover several times a month because a gap was filled before someone else offered.",
+      "languageNote": "Cost is described as waste rather than as staffing."
+    },
+    {
+      "id": "s8",
+      "sourceType": "forum",
+      "platform": "Small business forum",
+      "community": "small-business-uk",
+      "url": "https://forum.example.com/t/staff-wont-install",
+      "publishedDate": "2026-04-11",
+      "accessedAt": "2026-08-12",
+      "evidenceClass": "qualitative-language",
+      "authorRef": "a8",
+      "threadRef": "t8",
+      "paraphrase": "Owners report abandoning two previous tools because part-time staff would not install or open another app, regardless of the tool's quality.",
+      "languageNote": "Objection is about installation and habit, not features or price."
+    },
+    {
+      "id": "s9",
+      "sourceType": "review-site",
+      "platform": "App marketplace",
+      "community": "competitor-reviews",
+      "url": "https://reviews.example.com/rota-tools/2",
+      "publishedDate": "2026-03-05",
+      "accessedAt": "2026-08-12",
+      "evidenceClass": "qualitative-language",
+      "authorRef": "a9",
+      "threadRef": "t9",
+      "paraphrase": "One-star reviews cluster on per-head pricing feeling punitive for venues with many short-hours staff.",
+      "languageNote": "Objection expressed as unfairness rather than affordability."
+    },
+    {
+      "id": "s10",
+      "sourceType": "sales-calls",
+      "platform": "Sales notes",
+      "community": "sales-calls",
+      "url": "https://internal.example.com/calls/223",
+      "publishedDate": "2026-08-01",
+      "accessedAt": "2026-08-12",
+      "evidenceClass": "internal-data",
+      "authorRef": "a10",
+      "threadRef": "t10",
+      "paraphrase": "Prospects on recorded calls consistently quantify the problem in hours of the owner's own time per week rather than in staffing spend."
+    }
+  ],
+  "themes": [
+    {
+      "id": "th-swap",
+      "label": "Changing the rota, not making it",
+      "statement": "The painful job is not building the rota; it is renegotiating it after publication, which happens in group chats with no record of who agreed to what.",
+      "signalIds": ["s1", "s2", "s3", "s4", "s5"],
+      "counterSignal": "Four of the five signals come from people who chose to post about a problem, and the fifth is our own trial queue, which selects for people already shopping for a fix. Owners for whom swaps are a non-event would appear in none of these places.",
+      "evidenceStatus": "partial",
+      "sampleNote": "Public owner communities plus our own onboarding queue. Skews toward venues large enough to have swap pressure and owners comfortable posting in public."
+    },
+    {
+      "id": "th-cover",
+      "label": "Cover bought too early",
+      "statement": "Owners fill gaps quickly to remove the anxiety, and pay for cover that a later volunteer would have provided free.",
+      "signalIds": ["s4", "s7", "s10"],
+      "counterSignal": "Two of the three signals are our own interviews and sales calls, where prospects have an incentive to describe waste that our product would remove. The public signal describes lost time, not overspend.",
+      "evidenceStatus": "not_checked",
+      "sampleNote": "Mostly first-party. Overspend is self-estimated by interviewees and has not been checked against payroll data."
+    },
+    {
+      "id": "th-demand",
+      "label": "Demand sits on cover, not scheduling",
+      "statement": "Measured demand and first-party call notes both point at gap-filling rather than rota-building as the job people are shopping for.",
+      "signalIds": ["s6", "s7", "s10"],
+      "counterSignal": "The search export covers a single month, and July is peak holiday-cover season in UK hospitality, so the four-to-one difference may be seasonal rather than structural. The two first-party sources are people who already chose to talk to us.",
+      "evidenceStatus": "partial",
+      "sampleNote": "One month of UK search volume plus first-party interviews and calls. The only theme in this run carrying quantitative evidence."
+    },
+    {
+      "id": "th-adoption",
+      "label": "Staff will not install another app",
+      "statement": "Tools are abandoned because part-time staff never install or open them, so adoption fails before the product is judged on merit.",
+      "signalIds": ["s8", "s9"],
+      "counterSignal": "Both signals come from people explaining a past failure, which invites blaming the tool. None establishes what install rate is actually typical, and one is really about pricing.",
+      "evidenceStatus": "not_checked",
+      "sampleNote": "Two sources only, both retrospective accounts of abandoned tools."
+    },
+    {
+      "id": "th-pricing",
+      "label": "Per-head pricing reads as a penalty",
+      "statement": "Venues with many short-hours staff experience per-head pricing as a punishment for their staffing model rather than as a cost.",
+      "signalIds": ["s9"],
+      "counterSignal": "One source, and one-star reviews are the least representative population on any marketplace. Nothing here shows whether pricing blocked a purchase or merely annoyed an existing customer.",
+      "evidenceStatus": "not_checked",
+      "sampleNote": "Single review cluster. Not corroborated anywhere else in this run."
+    }
+  ],
+  "angles": [
+    {
+      "id": "a1",
+      "angle": "Your rota is not the problem. The forty messages it takes to change it is.",
+      "underlyingProblem": "Renegotiating a published rota costs the owner an evening and still leaves the outcome ambiguous.",
+      "customerLanguage": "People count the effort in messages and describe ending up unsure who is actually working.",
+      "whyItMayResonate": "It concedes that the audience's existing rota works, which avoids the argument they expect, and relocates the problem to the part they already complain about unprompted.",
+      "themeIds": ["th-swap"],
+      "claimType": "language-evidence",
+      "rankingRationale": "The broadest theme in the run: five distinct sources across four communities and four source types, including our own queue, with a median age under two months. Ranked first because the framing is the audience's own and it needs no claim about prevalence to work. Would drop if testing shows owners read it as dismissing scheduling features they still expect to buy.",
+      "judgement": { "strategicFit": 5, "differentiation": 4, "testability": 5, "overclaimRisk": 1, "brandRisk": 1 },
+      "hooks": [
+        { "text": "Forty-one messages to swap one shift.", "format": "reel-opener", "channel": "Instagram" },
+        { "text": "Your rota is fine. Changing it isn't.", "format": "headline", "channel": "Landing page" },
+        { "text": "The rota took ten minutes. The swap took all evening.", "format": "ad-line", "channel": "Paid social" },
+        { "text": "Who's actually working Saturday?", "format": "email-subject", "channel": "Email" }
+      ],
+      "suggestedFormats": [
+        "Short demo reel showing the group-chat thread beside the swap record",
+        "Landing-page hero, because it reframes the category rather than a feature"
+      ]
+    },
+    {
+      "id": "a3",
+      "angle": "The one your part-timers will actually open — because they don't have to install it.",
+      "underlyingProblem": "Adoption fails at installation, so the tool is never judged on whether it works.",
+      "customerLanguage": "Owners describe abandoning previous tools because staff simply never opened them.",
+      "whyItMayResonate": "It answers the objection that killed the last two purchases, so it speaks to a scar rather than a want.",
+      "themeIds": ["th-adoption"],
+      "claimType": "language-evidence",
+      "rankingRationale": "Only two distinct sources, so the evidence is moderate rather than strong, but both describe the same failure at the same point, and it is the objection most likely to block a sale regardless of how common it is. High testability: a single landing-page variant settles it. Would drop if trial data shows installation is not where our own funnel leaks.",
+      "judgement": { "strategicFit": 5, "differentiation": 4, "testability": 5, "overclaimRisk": 1, "brandRisk": 1 },
+      "hooks": [
+        { "text": "No app for your staff to install.", "format": "headline", "channel": "Landing page" },
+        { "text": "Your last two rota apps died in the App Store queue.", "format": "ad-line", "channel": "Paid social" },
+        { "text": "They swap by link. Nothing to download.", "format": "feature-line", "channel": "Landing page" },
+        { "text": "Why staff never opened your last rota app", "format": "reel-opener", "channel": "Instagram" }
+      ]
+    },
+    {
+      "id": "a2",
+      "angle": "Cafés are searching for cover four times as often as they're searching for a rota builder.",
+      "underlyingProblem": "The category is sold on planning while the recurring, urgent job is filling gaps.",
+      "customerLanguage": "Owners talk about cover and swaps; they rarely talk about scheduling.",
+      "whyItMayResonate": "It gives a buyer a reason to believe the category has been mis-sold to them, which is a stronger motivator than a feature comparison.",
+      "themeIds": ["th-demand", "th-swap"],
+      "claimType": "demand-evidence",
+      "rankingRationale": "The only angle in the run entitled to make a claim about scale, because it rests on a search export and first-party call notes rather than forum repetition. Ranked third because the claim needs the export re-run before it appears in public copy. Would drop if the volume difference turns out to be driven by a seasonal spike.",
+      "judgement": { "strategicFit": 5, "differentiation": 3, "testability": 4, "overclaimRisk": 3, "brandRisk": 1 },
+      "hooks": [
+        { "text": "Nobody Googles 'rota builder' at 6am.", "format": "reel-opener", "channel": "Instagram" },
+        { "text": "Built for the gap, not the grid.", "format": "headline", "channel": "Landing page" },
+        { "text": "Four times as many cafés search for cover as for scheduling.", "format": "ad-line", "channel": "Paid social" }
+      ]
+    },
+    {
+      "id": "a4",
+      "angle": "Stop paying for cover somebody would have taken for free.",
+      "underlyingProblem": "Gaps are filled fast to end the anxiety, before a cheaper volunteer surfaces.",
+      "customerLanguage": "Owners describe the spend as waste rather than as staffing cost.",
+      "whyItMayResonate": "It converts an emotional relief into a line of money, which is the form an owner-manager can act on.",
+      "themeIds": ["th-cover"],
+      "claimType": "language-evidence",
+      "rankingRationale": "Three distinct sources across three source types and very fresh, but two are first-party and the overspend is self-estimated, so the money claim must stay qualitative until payroll data exists. Ranked fourth on that constraint rather than on the strength of the idea.",
+      "judgement": { "strategicFit": 4, "differentiation": 3, "testability": 4, "overclaimRisk": 2, "brandRisk": 1 },
+      "hooks": [
+        { "text": "You paid double for a shift three people wanted.", "format": "reel-opener", "channel": "Instagram" },
+        { "text": "Ask everyone before you pay anyone.", "format": "headline", "channel": "Landing page" },
+        { "text": "The most expensive cover is the one you booked first.", "format": "ad-line", "channel": "Paid social" }
+      ]
+    },
+    {
+      "id": "a5",
+      "angle": "Get your day off back.",
+      "underlyingProblem": "Cover chasing intrudes into the owner's rest, not just their working week.",
+      "customerLanguage": "Owners describe losing a day off to filling one gap, and peers treat it as normal.",
+      "whyItMayResonate": "Rest is the scarcest thing an owner-manager has, and no competitor in this category speaks to it.",
+      "themeIds": ["th-cover"],
+      "claimType": "language-evidence",
+      "rankingRationale": "Emotionally the strongest line in the run, but it rests on the same first-party-heavy theme as the overspend angle and is much harder to falsify with a single test. Held back deliberately rather than promoted on appeal.",
+      "judgement": { "strategicFit": 3, "differentiation": 2, "testability": 3, "overclaimRisk": 2, "brandRisk": 1 },
+      "hooks": [
+        { "text": "One sick call shouldn't cost you a Sunday.", "format": "reel-opener", "channel": "Instagram" },
+        { "text": "Your day off, uninterrupted.", "format": "headline", "channel": "Landing page" },
+        { "text": "Cover sorted before you've finished your coffee.", "format": "ad-line", "channel": "Paid social" }
+      ]
+    },
+    {
+      "id": "a6",
+      "angle": "Pricing that doesn't punish you for hiring students.",
+      "underlyingProblem": "Per-head pricing penalises venues built on many short-hours staff.",
+      "customerLanguage": "Reviewers describe per-head pricing as unfair rather than expensive.",
+      "whyItMayResonate": "It attacks a competitor's pricing model rather than its features, which is harder to copy.",
+      "themeIds": ["th-pricing"],
+      "claimType": "hypothesis",
+      "rankingRationale": "One source, and the least representative kind — a one-star review cluster. Kept in the run because it is cheap to check against our own lost-deal reasons, but it is our synthesis rather than an established pattern and should not be tested in paid media yet.",
+      "judgement": { "strategicFit": 3, "differentiation": 3, "testability": 4, "overclaimRisk": 2, "brandRisk": 2 },
+      "hooks": [
+        { "text": "Priced per venue, not per head.", "format": "headline", "channel": "Landing page" },
+        { "text": "Hire the extra weekend pair. It costs you nothing here.", "format": "ad-line", "channel": "Paid social" },
+        { "text": "Why does your rota app charge you for hiring?", "format": "reel-opener", "channel": "Instagram" }
+      ]
+    }
+  ],
+  "evidenceGaps": [
+    "Re-run the search export over a full twelve months before any public claim about the four-to-one difference, to rule out a seasonal spike.",
+    "Check the overspend estimate against payroll data from two willing customers.",
+    "Find owners for whom swaps are genuinely a non-event — no source in this run could contain them."
+  ]
+}
