@@ -1,4 +1,4 @@
-# The Agent Ops Playbook
+# The Agent Playbook
 
 I run a portfolio of products with AI coding agents — multiple agents working the same codebases, often while I sleep. That only works because of a small set of operational systems, and this repository gives them away: battle-tested, MIT-licensed, LLM-agnostic (developed in production with Claude Code; the patterns work with any coding agent).
 
