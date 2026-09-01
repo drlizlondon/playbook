@@ -1,4 +1,4 @@
-# The Agent Playbook
+# The Playbook
 
 I run a portfolio of products with AI coding agents — multiple agents working the same codebases, often while I sleep. That only works because of a small set of operational systems, and this repository gives them away: battle-tested, MIT-licensed, LLM-agnostic (developed in production with Claude Code; the patterns work with any coding agent).
 
@@ -18,8 +18,8 @@ Everything here is sanitised for public use — free of product, stack, and pers
 Claude Code users can install everything as a plugin, with updates included:
 
 ```
-/plugin marketplace add drlizlondon/agent-playbook
-/plugin install agent-playbook@agent-playbook
+/plugin marketplace add drlizlondon/playbook
+/plugin install playbook@playbook
 ```
 
 Or take any piece by hand: copy a skill folder into `~/.claude/skills/` (user-level) or `.claude/skills/` (per-project), and adopt the patterns by following each one's own instructions. The documents work as prompts for any capable agent.

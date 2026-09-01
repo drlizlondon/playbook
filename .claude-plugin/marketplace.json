@@ -1,11 +1,11 @@
 {
-  "name": "agent-playbook",
+  "name": "playbook",
   "owner": { "name": "drlizlondon", "url": "https://github.com/drlizlondon" },
   "plugins": [
     {
-      "name": "agent-playbook",
+      "name": "playbook",
       "source": "./",
-      "description": "The Agent Playbook: the parallel-agents, marketing-angles and safe-deploy skills, plus four battle-tested operational patterns (Worktree Protocol, Autonomous Continuation, Minimal Permissions, Night Shift) for running AI coding agents on real products.",
+      "description": "The Playbook: the parallel-agents, marketing-angles and safe-deploy skills, plus four battle-tested operational patterns (Worktree Protocol, Autonomous Continuation, Minimal Permissions, Night Shift) for running real products with AI agents.",
       "version": "1.1.0"
     }
   ]
