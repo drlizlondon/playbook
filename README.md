@@ -15,14 +15,24 @@ Everything here is sanitised for public use — free of product, stack, and pers
 
 ## Install
 
-Claude Code users can install everything as a plugin, with updates included:
+**Works with any coding agent.** The one-click plugin is a Claude Code convenience — everything here is just well-structured instructions, so any capable agent can use it. Pick the easiest path for your tool:
+
+**Claude Code — one-click, permanent.** Installs everything as `/`-commands, updates included:
 
 ```
 /plugin marketplace add drlizlondon/playbook
 /plugin install playbook@playbook
 ```
 
-Or take any piece by hand: copy a skill folder into `~/.claude/skills/` (user-level) or `.claude/skills/` (per-project), and adopt the patterns by following each one's own instructions. The documents work as prompts for any capable agent.
+**Codex, Cursor, Cline, Aider — anything with web or git access — just point it at the repo:**
+
+> "Read the safe-deploy skill from github.com/drlizlondon/playbook and follow it."
+>
+> "Clone github.com/drlizlondon/playbook and use skills/safe-deploy."
+
+The agent fetches it and follows it — no copy-paste. To make it stick, add: *"…and save it into my AGENTS.md / .cursor/rules so you use it every time."*
+
+**By hand, or an offline sandbox.** Copy a skill folder into `~/.claude/skills/` (user-level) or `.claude/skills/` (per-project), or paste any file's markdown straight into your agent as a prompt. Every document here works as a standalone prompt for any capable agent.
 
 ## Skills
 
