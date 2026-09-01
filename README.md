@@ -30,6 +30,7 @@ Or take any piece by hand: copy a skill folder into `~/.claude/skills/` (user-le
 |---|---|
 | [`parallel-agents`](skills/parallel-agents/SKILL.md) | The full discipline the Worktree Protocol anchors: worktree-per-agent isolation, packet discipline (nothing counts as done until proven), one append-only work log, and a hard done-gate — including the sharp edge isolation cannot protect: serial shared resources (migration chains, lockfiles, generated artifacts). |
 | [`marketing-angles`](skills/marketing-angles/SKILL.md) | Evidence-grounded marketing angles and hooks for any product: researches real customer language, clusters it into themes with counter-signals, and ranks by breadth of evidence rather than repetition. Ships a zero-dependency compiler that derives every count, enforces the prevalence rule (forum chatter can never support a "most people" claim), and refuses runs that store identities or verbatim quotes. |
+| [`safe-deploy`](skills/safe-deploy/SKILL.md) | The Calm Release procedure: ship a big backlog to a live product without fear — a verified backup, a mechanical block on data-destroying migrations, staged backend-then-frontend deploys, verification against the system's own gate rather than any report, and the human on every irreversible button. Born from a release where a live product had sat a month and tens of thousands of lines behind, shipped in a single session with the backup never needed. |
 
 ## The thread that connects everything
 
