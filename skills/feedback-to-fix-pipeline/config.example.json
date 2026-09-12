@@ -1,0 +1,9 @@
+{
+  "_comment": "Copy this file to config.local.json (which is gitignored) and fill in the real values. Never commit config.local.json; never paste the bot_token into a chat or a log.",
+  "bot_token": "PASTE_YOUR_BOTFATHER_TOKEN_HERE",
+  "allowed_chat_id": 123456789,
+  "inbox_path": "~/notes/FEEDBACK-INBOX.md",
+  "_inbox_note": "The Markdown file to append feedback to. It MUST already contain a '## Open' heading (new items are inserted at the end of that section). Create it with e.g.: printf '# Feedback inbox\\n\\n## Open\\n\\n---\\n\\n## Done\\n' > ~/notes/FEEDBACK-INBOX.md",
+  "photo_dir": null,
+  "_photo_note": "Optional. Where downloaded screenshots go. Defaults to a photos/ folder next to capture-bot.py. Keep this folder out of version control."
+}
