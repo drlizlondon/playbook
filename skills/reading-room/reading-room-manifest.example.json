@@ -1,0 +1,23 @@
+{
+  "_comment": "The Reading Room CATALOG. This is the 'add a doc' surface: append an entry when a document should join your reading queue, remove one once you've long finished with it. Word counts are NOT stored here -- the build script recomputes them live from the file at `path` every run, so they never go stale. Per-doc READ STATE (keep/done/del) is NOT stored here either -- that lives in the published artifact's `db` capability (collection `docs`, doc id = this entry's `id`). See SKILL.md for the schema and the (re)publish procedure.",
+
+  "title": "The Reading Room",
+  "subtitle": "My reading queue",
+
+  "catOrder": [
+    "Start here",
+    "Plans",
+    "Architecture",
+    "Research"
+  ],
+
+  "docs": [
+    { "id": "welcome",           "title": "Welcome -- how the Reading Room works",     "cat": "Start here",   "path": "sample-docs/welcome.md" },
+    { "id": "weekly-plan-0115",  "title": "Weekly plan -- week of 15 Jan",             "cat": "Plans",        "path": "sample-docs/weekly-plan-2026-01-15.md" },
+    { "id": "arch-notes-0110",   "title": "Architecture notes -- storage layer",       "cat": "Architecture", "path": "sample-docs/architecture-notes-2026-01-10.md" }
+  ],
+
+  "links": [
+    { "title": "Example: a separate page you want linked at the top", "cat": "Research", "url": "https://example.com/" }
+  ]
+}
