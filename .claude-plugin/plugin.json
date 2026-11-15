@@ -1,6 +1,6 @@
 {
   "name": "playbook",
-  "version": "1.2.0",
-  "description": "Battle-tested patterns and skills for running real products with AI agents: parallel-agents discipline, evidence-grounded marketing-angles research, the safe-deploy Calm Release procedure, the reading-room queue for docs your agents generate, plus the Worktree Protocol, Autonomous Continuation, Minimal Permissions and Night Shift patterns as reference docs.",
+  "version": "1.3.0",
+  "description": "Battle-tested patterns and skills for running real products with AI agents: parallel-agents discipline, evidence-grounded marketing-angles research, the safe-deploy Calm Release procedure, the reading-room queue for docs your agents generate, the living-mindmap for seeing all your work as one picture you think from, plus the Worktree Protocol, Autonomous Continuation, Minimal Permissions and Night Shift patterns as reference docs.",
   "author": { "name": "drlizlondon", "url": "https://github.com/drlizlondon" }
 }

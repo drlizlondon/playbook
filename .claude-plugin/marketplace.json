@@ -5,8 +5,8 @@
     {
       "name": "playbook",
       "source": "./",
-      "description": "The Playbook: the parallel-agents, marketing-angles, safe-deploy and reading-room skills, plus four battle-tested operational patterns (Worktree Protocol, Autonomous Continuation, Minimal Permissions, Night Shift) for running real products with AI agents.",
-      "version": "1.2.0"
+      "description": "The Playbook: the parallel-agents, marketing-angles, safe-deploy, reading-room and living-mindmap skills, plus four battle-tested operational patterns (Worktree Protocol, Autonomous Continuation, Minimal Permissions, Night Shift) for running real products with AI agents.",
+      "version": "1.3.0"
     }
   ]
 }
